@@ -1,0 +1,11 @@
+$/etc/init.d/asterisk start|stop|status
+$sudo asterisk -vvvvc //starts Asterisk in verbose mode and in the console
+
+####console commands####
+$core show uptime //displays the uptime of the Asterisk server
+$core show version //displays the version of Asterisk
+$pjsip show endpoints
+
+$core show applications
+$core show applications like dial
+$core show application dial
