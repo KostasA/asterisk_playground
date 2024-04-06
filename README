@@ -11,3 +11,6 @@ $dialplan reload
 $core show applications
 $core show applications like dial
 $core show application dial
+
+$voicemail show users
+cd /var/spool/asterisk/voicemail/
