@@ -4,6 +4,7 @@ $sudo asterisk -vvvvc //starts Asterisk in verbose mode and in the console
 ####console commands####
 $core show uptime //displays the uptime of the Asterisk server
 $core show version //displays the version of Asterisk
+$module show
 $pjsip show endpoints
 $pjsip reload
 $dialplan reload
