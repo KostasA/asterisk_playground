@@ -12,5 +12,8 @@ $core show applications
 $core show applications like dial
 $core show application dial
 
+$queue show support
+
 $voicemail show users
 cd /var/spool/asterisk/voicemail/
+
