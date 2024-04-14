@@ -13,6 +13,8 @@ $core show applications like dial
 $core show application dial
 
 $queue show support
+$queue add member PJSIP/6001 to support // add a dynamic member to support queue
+$queue remove member PJSIP/6001 from suport // remove a dynamic member from support queue 
 
 $voicemail show users
 cd /var/spool/asterisk/voicemail/
