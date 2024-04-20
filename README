@@ -20,3 +20,7 @@ $queue remove member PJSIP/6001 from suport // remove a dynamic member from supp
 $voicemail show users
 cd /var/spool/asterisk/voicemail/
 
+>database show //access the asterisk database
+>database put <family> <key> <value> //add something to the database
+>database deltree <family> //delete a family from the database
+
