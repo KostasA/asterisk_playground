@@ -24,3 +24,4 @@ cd /var/spool/asterisk/voicemail/
 >database put <family> <key> <value> //add something to the database
 >database deltree <family> //delete a family from the database
 
+>core show functions
