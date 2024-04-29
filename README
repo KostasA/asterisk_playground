@@ -25,3 +25,6 @@ cd /var/spool/asterisk/voicemail/
 >database deltree <family> //delete a family from the database
 
 >core show functions
+
+//prompt (a pre-recorded audio file that is played back to callers as part of an IVR system
+cd /var/lib/asterisk/sounds
