@@ -28,3 +28,6 @@ cd /var/spool/asterisk/voicemail/
 
 //prompt (a pre-recorded audio file that is played back to callers as part of an IVR system
 cd /var/lib/asterisk/sounds
+
+####Logger####
+cat /etc/asterisk/logger.conf
